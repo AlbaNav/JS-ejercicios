@@ -28,3 +28,4 @@ console.log(rickAndMortyCharacters[0],rickAndMortyCharacters[4]);
 
 rickAndMortyCharacters.splice(1,2);
 console.log(rickAndMortyCharacters);
+
