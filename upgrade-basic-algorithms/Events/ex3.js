@@ -5,15 +5,15 @@
   };
   
 let btntoClick = document.body.querySelector('#btnToClick');
-btntoClick.addEventListener("click",function () { console.log(Event)  
+btntoClick.addEventListener("click",function () { console.log(btntoClick)  
 });
 
 let focus$$ = document.body.querySelector('.focus');
 focus$$.addEventListener("focus", function () {
-  console.log(event1.target.value)
+  console.log(focus$$.value)
 });
 
-  let input$$ = document.body.querySelector('.input');
-  input$$.addEventListener("input", function () {
-    console.log(event2.target.value)
+  let input$$ = document.body.querySelector('.value');
+  input$$.addEventListener('input', function () {
+    console.log(input$$.value)
   });
